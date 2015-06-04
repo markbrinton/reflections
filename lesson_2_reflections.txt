@@ -10,5 +10,14 @@ The staging area is a snapshot of some file(s) at the point where they're ready 
 be committed.  Having a staging area allows you to collect together a number of
 files that are logically related to a single commit.
 
+* How can you use the staging area to make sure you have one commit per logical change?
 
+All the edits that go together to make up a single logical change can be put in the staging area.
+Unrelated changes can be left out, so they won't be part of the commit.
+
+* What are some situations when branches would be helpful in keeping your history organized? 
+  How would branches help?
+
+Branches would be helpful when I want to make some changes that should be isolated from
+the master version.  Maybe they are experimental, or temporary.
 
