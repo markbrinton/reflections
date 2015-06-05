@@ -21,3 +21,19 @@ Unrelated changes can be left out, so they won't be part of the commit.
 Branches would be helpful when I want to make some changes that should be isolated from
 the master version.  Maybe they are experimental, or temporary.
 
+* How do the diagrams help you visualize the branch structure?
+
+They allow you to see the history of what each branch contains, what they have in common
+and what changes will be missing.
+
+* What is the result of merging two branches together? 
+  Why do we represent it in the diagram the way we do?
+
+The result is a set of files containing all the changes from both branches.
+The diagram shows the merged branch with two parents, and two sets of commit histories.
+
+* What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: takes care of most of the grunt work for the easy cases.
+Cons: it could make mistakes as it has no understanding of the content.
+
